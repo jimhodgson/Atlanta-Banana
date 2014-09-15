@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Test post 1"
+date: 2014-09-15 16:21:39 -0400
+comments: true
+categories: testing, posts, "test posts"
+---
+This is a test post. I have no idea how it will look or what the result will be on the site. 
+
+But I need some more text here. 

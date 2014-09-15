@@ -45,7 +45,7 @@ $header-padding-bottom: .5em !default;
 }
 
 body {
-  padding-top: 50px;
+  padding-top: 20px;
   -webkit-text-size-adjust: none;
   max-width: $max-width;
   position: relative;
@@ -88,6 +88,8 @@ body {
     font-size: $header-font-size;
     padding-top: $header-padding-top;
     padding-bottom: $header-padding-bottom;
+	padding-left: 0;
+	padding-left: 0;
   }
 }
 
