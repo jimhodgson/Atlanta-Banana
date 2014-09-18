@@ -29,7 +29,7 @@ $nav-color: darken($nav-bg, 38) !default;
 $nav-color-hover: darken($nav-color, 25) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
-$nav-border-top: #ccc !default;
+$nav-border-top: #fff;
 $nav-border-bottom: #ccc !default;
 $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
@@ -76,10 +76,10 @@ html {
 }
 body {
   > div {
-    background: $sidebar-bg $noise-bg;
+    background: $sidebar-bg #fff;
     border-bottom: 1px solid $page-border-bottom;
     > div {
-      background: $main-bg $noise-bg;
+      background: $main-bg #efefef;
       border-right: 1px solid $sidebar-border;
     }
   }

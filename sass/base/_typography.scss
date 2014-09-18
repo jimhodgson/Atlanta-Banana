@@ -2,7 +2,7 @@ $blockquote: $type-border !default;
 $sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
 $mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
-$heading-font-family: "Cinzel", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+$heading-font-family: "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 $header-title-font-family: $heading-font-family !default;
 $header-subtitle-font-family: "Raleway", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
 
@@ -15,7 +15,7 @@ $header-subtitle-font-family: "Raleway", "Georgia", "Helvetica Neue", Arial, san
 .mono { font-family: $mono; }
 
 body > header h1 {
-  font-size: 2.2em;
+  font-size: 1.2em;
   @extend .heading;
   font-family: $header-title-font-family;
   font-weight: normal;
@@ -23,6 +23,10 @@ body > header h1 {
   margin-bottom: 0.6667em;
   text-transform: uppercase;
 }
+body h1.entry-title {
+  font-size: 1.5em;
+  font-weight: normal;
+} 
 body .sidebar h1 { 
 	font-family: $header-subtitle-font-family;
 }
@@ -31,10 +35,15 @@ body > header h2 {
 }
 
 body {
-  line-height: 1.5em;
+  line-height: 1em;
   color: $text-color;
   @extend .serif;
 }
+
+body .entry-content p {
+	margin-bottom: auto;
+} 
+
 h1 {
   font-size: 2.2em;
   line-height: 1.2em;
